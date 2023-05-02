@@ -22,13 +22,10 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
-
 	public function biodataku()
 	{
-		$this->load->view('Rizky');
-	}
-
-	public function penjumlahan($nilai1, $nilai2){
-		echo $this->Model_aritmatika->penjumlahan($nilai, $nilai2);
+		$this->load->view('Nero');
 	}
 }
+
+// public function penjumlahan($nilai1, $nilai2){echo $this->Model_aritmatika->penjumlahan($nilai, $nilai2);
